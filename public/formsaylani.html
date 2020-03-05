@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+
+    <style>
+    
+    
+  
+
+
+body{
+   background-image: url(data:image/jpeg;base64,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);
+   margin: 0px;
+   padding: 0px;
+   
+ }
+   
+
+
+
+div{
+    
+    margin-top:-18px;
+    padding: 0px;
+    width: 100%;
+
+    height: 80px;
+    background-color: rgb(173, 6, 6)
+   }
+
+
+
+
+
+
+div>ul>li{
+
+   list-style-type: none;
+   margin-left: 0px;
+   text-decoration: none;
+   float: left;
+   margin-top: 20px;
+ }
+
+
+
+
+ul>li>a{
+   color: blanchedalmond;
+   text-decoration: none;
+   font-size: 20px;
+   padding: 50px;
+}
+
+
+ul>li{
+   
+   display: inline-block;
+}
+
+
+a:hover{
+   color: red;
+}
+
+
+
+
+
+
+
+#logo{
+   margin-top: 0px;
+   margin-right: 200px;
+   margin-left: -40px;
+}
+
+
+
+input:hover{
+background-color: lightblue;
+} 
+
+
+
+
+
+input:focus{
+background-color: white;
+box-shadow: 5px 5px 5px grey;
+} 
+
+
+
+#apply{
+    color: green;
+}
+
+
+
+
+ 
+
+ 
+
+#div4>a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 40px;
+    margin-left: 470px;
+    
+}
+
+
+
+
+#div4>a:hover{
+    color: red;
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+
+
+ 
+    <div id="div1">
+    
+       
+        <ul>
+ <li id="logo">   <img src="images/logo.png" alt="logo" width="80px" height="80px"></li>
+ <li> <a href="index.html"> <b>Home</b></a></li>
+ <li> <a id="apply" href="formsaylani.html"><b>Apply</b></a></li>
+ <li> <a href="courses.html"> <b>Courses</b> </a></li>
+
+ <li> <a href="faculty.html"><b>Faculty</b></a></li>
+ <li> <a href="fee.html"> <b>Fee Structure</b></a></li>
+</ul>
+  
+
+</div>
+ <br> <br> <br> <br>
+            <br>
+            <br>
+            <br>
+            <br>
+         
+
+
+
+
+    <form action="get">
+       <center> <img src="images/ubit.png"  allign="center" alt="Saylani"> </center>  
+
+
+
+
+
+        <p align="center"> <b>Umaer Basha Institute Of Information Technology</b></p> 
+
+        <p align="center"> Registration / Entry Test Form</p> <br>
+
+
+
+
+
+        <label for="course"  id="top">Select Your Course*</label>
+        <select name="courses" id="courses">
+
+            <option value="select course">Select Course</option>
+            <option value="bscs"> BsCs</option>
+            <option value="bsse">BsSe</option>
+            <option value="mscs">MsCs</option>
+            <option value="msse">MsSe</option>
+            <option value="phd">Phd</option>
+
+        </select>
+
+
+
+
+        <label for="badge">Select Badge*</label>
+
+        <select name="badge" id="badge">
+
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        </select> <br> <br> <br>
+
+
+
+
+
+
+<label for="name">Your Name* <input type="text" required="required" placeholder="Your Name"  id="i1" size="100" maxlength="18"></label> <br>
+
+
+<p>Max characters allowed : 18</p> <br>
+
+
+<label for="dob">Date Of Birth* <input type="text" size="1" required="required" placeholder="Day"> <input type="text" size = "1" placeholder="Month" > <input type="text" size="1" placeholder="Year"></label>
+
+
+<label for="age">Age* <input type="text" required="required" placeholder="Age"></label> <br> <br>
+
+
+<label for="gender">Gender* <br> <input type="radio" name="gender" value="male">Male <input type="radio" name="gender" value="female">Female</label> <br> <br>
+
+
+<label for="cnic">CNIC / B-Form* <input type="text" required="required" placeholder="CNIC / B-Form" ></label> <br> <br>
+
+
+<label for="father">Father's Name* <input type="text" required="required"  placeholder="Father's Name"></label> <br> <br>
+
+
+<label for="father's cnic">Father's Guardian's CNIC* <input type="text" required="required"  placeholder="Father's Guardian's CNIC"></label> <br> <br>
+
+
+<label for="address">Full and Permanent Address* <input type="text" required="required" placeholder="Full and Permanent Address"></label> <br> <br>
+
+
+<label for="cell">Cell Number* <input type="number" required="required" placeholder="Cell Number"></label> <br> <br>
+
+
+<label for="email">Email <input type="email" required="required" placeholder="email"></label> <br> <br>
+
+
+<label for="qualification">Last qualification <br> <input type="radio" name="quali">None <input type="radio" name="quali">Matric <input type="radio" name="quali">Intermediate <input type="radio" name="quali">Bachelor <input type="radio" name="quali">Master <input type="radio" name="quali" >Phd</label> <br> <br>
+
+
+<p>Upload your recent image (face front, without glasses and with a single-colored background) *</p>
+
+<input type="file" value="Upload"> <br> <br> <br>
+
+
+<h3>Declaration Undertaking*</h3>
+
+<ol>
+
+    <li>I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best of my knowledge. Further, I will abide by my all the establish and future regulation and policies of SWIT</li>
+    <li>I hereby accept the responsibilites of the good conduct and guarantee that I will not be involved in any other activity, polical or ethic, but learning during my stay in the program.</li>
+    <li>Defiance will render my admission cancelled at any point in time</li> <br> <br>
+    
+</ol> <br> <br> <br>
+
+
+<input type="checkbox">  <b>I agree with the above terms</b> <br>  <br>
+
+<input type="submit" name="submit" value="Submit"> <br> <br> <br>
+
+
+
+</form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+
+
+
+<div id="div4">
+
+    <a href="contact.html"> Contact Us!</a>
+    
+    
+    
+    </div>
+
+</body>
+</html>
